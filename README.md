@@ -1,1 +1,8 @@
-# ML_Internship_Task2
+### Task 3: California Housing Price Prediction
+
+This project implements a regression analysis to predict median house values in California using a Random Forest Regressor. The workflow involves comprehensive data preprocessing, including handling missing values via median imputation, feature scaling with `StandardScaler`, and encoding categorical variables like `ocean_proximity`. By utilizing an automated pipeline, the model effectively learns from geographic and demographic features—such as location coordinates, total rooms, and median income—to estimate property values. The final model achieved a strong **R-squared score of 0.8172**, indicating that approximately 81.7% of the variance in housing prices is explained by the features, with a **Root Mean Squared Error (RMSE) of 48,941.70**.
+
+
+### Task 4: Iris Flower Species Classification
+
+In this task, a multiclass classification model was developed to categorize Iris flowers into three species: Setosa, Versicolor, and Virginica. To ensure the model generalizes well and avoids the common pitfall of overfitting on this small, 150-sample dataset, a Random Forest Classifier was implemented with **pruning techniques**, specifically limiting the `max_depth` to 3. This approach forces the model to learn broader, more robust decision boundaries based on petal and sepal dimensions rather than memorizing individual data points. The resulting model demonstrated exceptional performance, yielding a **95.83% accuracy** on the hold-out set and a stable **Mean Cross-Validation score of 96.67%**, proving its reliability across different subsets of the data.
