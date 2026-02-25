@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # 1. Load the dataset
-data = pd.read_csv(r"D:\Basit\Internship\01 - Arch Technologies\Task 2\House_Price_Predictor\housing.csv")
+data = pd.read_csv(r"D:\Basit\Internship\01 - Arch Technologies\ML_INTERNSHIP_TASK2\House_Price_Predictor\housing.csv")
 
 # 2. Define features and target
 X = data.drop("median_house_value", axis=1)
